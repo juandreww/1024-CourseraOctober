@@ -1,0 +1,9 @@
+def ACDC(y):
+    print(Rating)
+    return(Rating+y)
+
+Rating = 9
+
+Z = ACDC(1)
+print(Rating)
+print(Z)
