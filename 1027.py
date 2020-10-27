@@ -117,3 +117,91 @@ max_b
 
 min_b = b.min()
 min_b
+
+u = np.array([1,0])
+u
+
+v = np.array([0, 1])
+v
+
+z = u + v
+z
+
+Plotvec1(u,z,v)
+
+y = np.array([1,2])
+y
+
+z = 2 * y
+z
+
+u = np.array([1,2])
+u
+
+v = np.array([3,2])
+v
+
+z = u * v
+z
+
+np.dot(u,v)
+
+u = np.array([1, 2, 3, -1])
+u
+
+u + 1
+
+# The value of pi
+np.pi
+
+x = np.array([0, np.pi/2, np.pi])
+x
+
+y = np.sin(x)
+y
+
+# Makeup a numpy array within [-2, 2] and 5 elements
+
+np.linspace(-2, 2, num=5)
+
+np.linspace(-2, 2, num=9)
+
+# Makeup a numpy array within [0, 2π] and 100 elements
+
+x = np.linspace(0, 2*np.pi, num = 100)
+x
+
+y = np.sin(x)
+
+plt.plot(x,y)
+
+# Write your code below and press Shift+Enter to execute
+
+u = np.array([1, 0])
+v = np.array([0, 1])
+u - v
+
+# Write your code below and press Shift+Enter to execute
+
+z = np.array([2, 4])
+z * -2
+
+# Write your code below and press Shift+Enter to execute
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([1, 0, 1, 0, 1])
+a * b
+
+# Write your code below and press Shift+Enter to execute
+
+a = np.array([-1, 1])
+b = np.array([1, 1])
+Plotvec2(a,b)
+print("The dot product is:", np.dot(a,b))
+
+# Write your code below and press Shift+Enter to execute
+
+a = np.array([-1, 0])
+b = np.array([0, 1])
+Plotvec2(a,b)
+print("The dot product is:", np.dot(a,b))
+
